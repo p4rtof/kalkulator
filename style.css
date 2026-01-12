@@ -7,10 +7,9 @@ body{
 
 .calculator{
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
-    max-width:30%;
-    
+    width:180px;
+    height: 200px;
     padding: 12px;
-    /* padding-right: 0; */
     border-radius: 7px;
 }
 
@@ -19,16 +18,16 @@ body{
 }
 
 #display{
-    max-width: 100%;
+    width: 95%;
     margin: 0 auto;
     margin-bottom: 10px; 
     border-radius: 5px; 
     border: 0 transparent; 
     background-color: rgb(233, 233, 233);
-    height: 25px;
+    height: 30px;
     text-align: right;
-    padding: 0 5px;
-    
+    padding: 2px 5px;
+    font-size: 1em;
 }
 
 .button {
@@ -47,7 +46,7 @@ button:hover{
     border-radius: 5px;
     background-color: #e5e6e7;
     color: black;
-    padding: 3px;
+    padding: 5px;
 }
 
 .btn-operator{
